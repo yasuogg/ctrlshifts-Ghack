@@ -6,7 +6,7 @@ export default function Header(){
       
     return(
         <nav>
-       <div className="flex justify-between items-center pt-8 pl-6 pr-6">
+       <div className="flex justify-between items-center pt-8 pl-6  lg:pl-24 pr-6">
        <h1 className="font-bold text-2xl lg:text-4xl">CollaboraPro</h1>
 <div>
     <div className="hidden md:block">
