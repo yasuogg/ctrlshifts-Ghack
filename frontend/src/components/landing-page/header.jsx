@@ -62,15 +62,15 @@ export default function Header(){
        </div>
 
        {/* Mobile menu*/}
-<div className={`lg:hidden  transition-transform transform ${isMobileMenuOpen ? ' translate-x-0 ' : '-translate-x-full'} `} 
+<div className={`lg:hidden   transition-transform transform ${isMobileMenuOpen ? ' translate-x-0 ' : '-translate-x-full'} `} 
 style={{ zIndex: 2, position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}>
-<div className=" fixed bg-white text-black  w-full h-screen  top-0 left-0  sm-hidden  p10  ">
+<div className=" fixed  bg-white text-black z-16 w-screen h-screen top-0 left-0  sm-hidden    ">
   <div className="flex flex-row items-center justify-evenly w-full pb-8 pt-2  ">
   <h1 className="flex justify-end font-bold  text-4xl pt-6 lg:text-4xl">CollaboraPro</h1> 
   <button className=" flex text-[30px] text-black pt-6 " onClick={toggleMobileMenu} ><IoMdClose/></button>
 </div>
-  <div className="flex flex-col  text  text-[25px]   ">
-    <ul className="flex flex-col space-x-18 lg:space-x-7   ">
+  <div className="flex flex-col   text-[25px]   ">
+    <ul className="flex flex-col pl-8  space-y-12 lg:space-x-7   ">
        <li><Dropdown options={Product}/></li>
        <li><Dropdown options={Solutions}/></li>
        <li><Dropdown options={Learn}/></li>

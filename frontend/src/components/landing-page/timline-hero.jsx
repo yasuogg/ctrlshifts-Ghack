@@ -11,8 +11,8 @@ export default function Timeline(){
     return(
         <div className="flex flex-col justify-center items-center  pt-24 pb-24 font-bold bg-[url('/images/landing-page/timeline/1.png')] ,bg-[url('/images/landing-page/timeline/2.png')] bg-center bg-no-repeat">
             <div className="flex  lg:pb-12 w-full justify-center items-center  space-x-12 text-3xl ">
-            {icons.map((icon, index) => (
-    <h1 key={index} className="flex flex-col text-[#7B73AE] justify-center items-center">
+{icons.map((icon, index) => (
+    <h1 key={index} className={`flex flex-col ${index > 0 ? 'hidden md:flex' : 'flex'} text-[#7B73AE] justify-center items-center`}>
         {icon.icon}
         {icon.title}
     </h1>
@@ -20,8 +20,8 @@ export default function Timeline(){
 
                 <h1 className="flex flex-col justify-center items-center "><SiGoogledocs/>Docs</h1>
 
-            {icons.map((icon, index) => (
-    <h1 key={index} className="flex  flex-col text-[#7B73AE] justify-center items-center">
+                {icons.map((icon, index) => (
+    <h1 key={index} className={`flex flex-col ${index > 0 ? 'hidden md:flex' : 'flex'} text-[#7B73AE] justify-center items-center`}>
         {icon.icon}
         {icon.title}
     </h1>
