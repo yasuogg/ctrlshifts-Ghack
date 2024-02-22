@@ -9,7 +9,7 @@ export default function sigup (){
 <Header/>
 <div className="bg-cover absolute bottom-0 left-0 w-full text-center md:pb-[50%] lg:pb-[10%]  bg-no-repeat" style={{backgroundImage: "url('/images/login/group1.svg')"}}>
 <div className=" flex flex-col justify-center items-center text-black  ">
-<div className="flex flex-col  shadow-2xl px-12 lg:px-24 py-10   rounded-lg bg-white">
+<div className="flex flex-col  shadow-2xl px-[20%] border-separate  lg:px-24 py-10   rounded-lg bg-white">
 <h1 className="text-center font-bold text-4xl pb-6">Let's go!</h1>
 
 <label for="input-group-1" class="block mb-2 text-sm font-medium ">Full Name</label>
