@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-   <a href="https://github.com/yasuogg/ctrlshifts-Ghack"><img src="public/logo.png" height="auto" width="100px" ></a>
+   <a href="https://github.com/yasuogg/ctrlshifts-Ghack"><img src="frontend/public/logo.png" height="auto" width="100px" ></a>
   <h3 align="center">Ghack Hackathon participation </h3>
 
   <p align="center">
