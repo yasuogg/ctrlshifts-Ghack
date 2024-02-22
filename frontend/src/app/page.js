@@ -1,3 +1,4 @@
+import Footer from "@/components/landing-page/footer";
 import Header from "@/components/landing-page/header";
 import Hero from "@/components/landing-page/hero";
 import Squares from "@/components/landing-page/squares";
