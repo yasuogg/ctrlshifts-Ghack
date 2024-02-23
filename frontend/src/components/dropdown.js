@@ -37,7 +37,7 @@ const Dropdown = ({ options }) => {
         </svg>
       </button>
       {isOpen && (
-        <div className="absolute right-0 mt-1 w-full  text-black  z-10">
+        <div className="absolute right-2 mt-2  w-full  text-black  z-10">
           {options.slice(1).map(({ name, url }) => (
             <a href={url} key={name}>
               <a className="block px-2 py-2 hover:text-[#C637A0] duration-300 w-full text-left" onClick={handleToggle}>
